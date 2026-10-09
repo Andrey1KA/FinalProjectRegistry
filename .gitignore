@@ -1,0 +1,43 @@
+# dependencies
+node_modules
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# eslint
+.eslintcache
+
+# misc
+.DS_Store
+
+# IDE
+.vscode
+.idea
+.cursor
+
+# local agent files
+.agents
+.claude
+.opencode
+.mcp.json
+opencode.json
+AGENTS.md
+CLAUDE.md
+
+# report
+*.docx
+
+# scaffold template extras
+.github
+.husky
+.lintstagedrc.js
+CONTRIBUTING.md
+funding.json
+
+# cli
+dist
